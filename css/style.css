@@ -1,0 +1,32 @@
+.header{
+    color:rgb(23, 153, 192);
+    font-weight: 900;
+    position:relative;
+}
+.header::after{
+  position:absolute;
+  content:'';
+  background: rgb(23, 153, 192);
+  height:5px;
+  width:500px;
+  top:105%;
+  left:50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+/* === input part === */
+ .input-style{
+     width:60%;
+ }
+ /* === player ==== */
+ .player{
+     background:#ddd;
+ }
+
+ .player-img img{
+     width:100%;
+ }
