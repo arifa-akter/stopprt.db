@@ -31,24 +31,48 @@
                         <div class="input-group mb-3 input-style">
                             <input id="inputField" type="text" class="form-control" placeholder="search player name"
                                 aria-label="search player name" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-secondary" onclick="searchPlayer()"  type="button" id="search-player">search</button>
+                            <button class="btn btn-outline-secondary" onclick="searchPlayer()" type="button"
+                                id="search-player">search</button>
                         </div>
-                        <!-- payer info div start -->
-                        <div class="All-player">
-                            <div id="player-info" class="row row-cols-lg-2 g-4">
-
+                        <!-- error text start -->
+                        <div id="input-blank-error">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/Comp-2.gif" width="60" height="60" alt="spinner">
+                                </div>
+                                <div class="text-error">
+                                    <p>
+                                        please Enter player Name . input field is blank
+                                    </p>
+                                </div>
                             </div>
-                            <!-- <div id= "player-info"class="row row-cols-1 row-cols-md-3 g-4">
-                               
-                              </div> -->
+                        </div>
+                     <!-- player name error message -->
+                        <div id="not-mach-player">
+                            <img src="images/Comp-2.gif" width="500" height="100" alt="spinner">
+                            <p class="text-danger">something is worng becouse there is no any player Name and please properly type player name.
+                            
+                            </p>                                                   
+                        </div>
+                      <!-- API link error message -->
+                        <div id="link-error-message">
+                            <img src="images/Comp-2.gif" width="500" height="100" alt="spinner">
+                            <p class="text-danger">something is worng becouse your API link doesn't work please check your API link</p>                                                   
+                        </div>
+                          <!-- error text end -->
+                        <!-- payer info div start -->
+                        <div id="All"class="All-player">
+                            <div id="player-info" class="row row-cols-lg-2 g-4">
+                            </div>
                         </div>
                     </div>
-
                     <!-- right part start -->
                     <div class="col-lg-6">
-                     <div id="main-playr-detail">
-                    
-                     </div>
+                        <img id="male" src="images/male.jpg" class="img-fluid"alt="masi">
+                            <img id="female"src="images/female.jpg" class="img-fluid"alt="masi">
+                        <div id="main-playr-detail">
+                            
+                        </div>
                     </div>
                 </div>
 

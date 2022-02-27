@@ -30,3 +30,30 @@
  .player-img img{
      width:100%;
  }
+
+ /* ==== error ===== */
+ #input-blank-error{
+  border: 1px solid rgb(122, 53, 53);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#input-blank-error img{
+    border-radius: 20px;  
+}
+.text-error{
+    padding: 20px 10px; 
+    color:rgb(163, 33, 33);
+    font-weight:400;
+}
+#male{
+    display: none;
+}
+#female{
+    display: none;
+}
+#All{
+    display: none;
+}
