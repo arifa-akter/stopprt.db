@@ -57,3 +57,31 @@
 #All{
     display: none;
 }
+.item-1{
+    width:50%;
+}
+.item-2{
+    width:50%;
+}
+
+/* ======= media query ========== */
+@media screen and (max-width:576.98px){
+    .flex-class{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    .display-cls{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   .item-1{
+       width:100%;
+   }
+   .item-2{
+     width:100%;
+   }
+
+   .input-style {
+	width: 100%;
+}
+}

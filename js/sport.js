@@ -95,14 +95,14 @@ function displayPlayerDetail(playerDetail) {
 
     const mainPlayerDetail = document.getElementById('main-playr-detail')
     mainPlayerDetail.innerHTML = `
-        <div class="text-player-detail d-flex">
-        <div class="item-1 w-50">
+        <div class="text-player-detail d-flex display-cls">
+        <div class="item-1">
         <h6><span class="text-danger">Name</span>: ${playerDetail.strPlayer}</h6>
         <h6><span class="text-danger">Name</span>: ${playerDetail.strGender}</h6>
         <h6><span class="text-danger">Name</span>: ${playerDetail.strHeight}</h6>
             <h6><span class="text-danger">artical</span>:${playerDetail.strDescriptionEN}</h6>
         </div>
-        <div class="item-2 w-50">
+        <div class="item-2">
             <img src="${playerDetail.strThumb}" class ="img-fluid"alt="randomplayer">
         </div>
     </div>
